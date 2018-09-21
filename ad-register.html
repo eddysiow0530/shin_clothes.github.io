@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+ <link href='register.css' rel='stylesheet'/>
+<body background="images/admin.jpg">
+<title>Sign Up</title>
+</head>
+
+<body>
+
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Register Admin</h1>
+			</div>
+
+				<div class="login-form">
+					<div class="control">
+							<form method="post" action="ad-register.php" enctype="multipart/form-data">
+						<table>
+
+				<tr>
+					<th>Name:</th><td><input id="name" name="name" type="text" required="required" placeholder="Enter Your name"/>
+					</td>
+				</tr>
+				<tr>
+
+
+					<th>Username:</th><td><input id="user" name="user" type="text" required="required" placeholder="Enter New Username"/>
+					</td>
+					</tr>
+		
+				<tr><th>Password:</th><td><input id="pass" name="pass" type="password" required="required" placeholder="Enter Password"/></td>
+				</tr>
+					<tr><th>Confirm Password:</th><td><input id="comfirmpass" name="confirmpass" type="password"  required="required" placeholder="Confirm Password "/></td>
+					</tr>
+
+		<tr>
+		<th>Email Address:</th><td><input id="email" name="email" type="email" required="required" placeholder="Enter Email"/></td>
+		</tr>
+
+		<tr>
+		<th>Phone number:</th><td><input id="hp" name="hp" type="number" required="required" placeholder="Enter Your Phone number"/>
+		</td>
+		</tr>
+
+
+			<tr>
+		<th>Gender :</th><td>
+		<input type="radio" id="gender" name="gender" value="Male" required="required" />Male
+		<input type="radio" id="gender" name="gender" value="Female" required="required" />Female</td>
+		</tr>
+
+		<tr>
+			<th>Date Of Birth</th>
+			<td><input type="date" id="dob" name="dob" required="required" /></td>			
+		</tr>
+
+
+		<tr><th colspan="2"><br/><input id="register1" type="submit" value="Register As New User" />
+			<input  id="reset" type="reset" value="Reset" />
+		</th>
+		</tr>
+	</div>
+	</table>
+	</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<center>
+  <button class="btn-3" onclick="window.location.href='login.html'">Already Register? Come with me</button>
+</div>
+	</center>
+<button class="btn-3" onclick="window.location.href='register.html'">User</button>
+</body>
+</html>

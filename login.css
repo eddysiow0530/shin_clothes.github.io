@@ -1,0 +1,150 @@
+﻿* {
+box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+.login {
+margin: 20px auto;
+width: 380px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control{
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+#login{
+  background-color:black;
+  color:white;
+}
+#login:hover{
+  background-color:white;
+  color:black;
+  border:1px solid black;
+}
+
+.btn-3:hover:after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.btn-3::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: black;
+}
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  display: block;
+  height: 50px;
+  width: 186px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+    
+  &:after {
+    position: absolute;
+    content:'';
+    display: inline-block;
+    background: rgba(59,173,227,1);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    height: 50px;
+    width: 372px;
+    z-index: -1;
+    transform: translateX(-280px);
+    transition: transform 400ms ease-in;
+  }
+  
+  &:hover {
+    &:after {
+      transform: translateX(-200px);
+    }
+  }
+  span {
+    position: relative;
+    top: 16px;
+  }
+}

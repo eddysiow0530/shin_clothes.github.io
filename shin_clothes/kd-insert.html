@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+ <link href='register.css' rel='stylesheet'/>
+<body background="images/login1.jpg">
+<title>T-shirt Form</title>
+</head>
+
+<center>
+<body>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+
+	<h1>Kid T-shirt Form</h1>
+	<form method="post" action="kd-insert.php" enctype="multipart/form-data"> <!--enctype to recongize the multi media to server-->
+	<table>
+		<tr>
+		<th>Product name:</th><td><input id="name" name="name" type="text" required="required"/>
+		</td>
+		</tr>
+		
+		<tr><th>Price:</th><td><input id="price" name="price" type="text" required="required"/></td>
+		</tr>
+		<tr><th>Description:</th><td><input id="description" name="description" type="description" required="required"/></td>
+		</tr>
+		<tr>
+		<th>Photo Upload :</th>
+		<td><input id="photo" name="photo" type="file" required="required" />
+		</td>
+		</tr>
+		<tr><th colspan="2"><br/><input id="register1" type="submit" value="Submit" /> <input id="reset"  type="reset" value="reset" />
+		</th>
+		</tr>
+	</table>
+	</form>
+</body>
+</center>
+
+
+</html>

@@ -1,0 +1,173 @@
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+.login {
+margin: 20px auto;
+width: 380px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control{
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+#login{
+  background-color:#7387f9;
+}* {
+box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+.login {
+margin: 20px auto;
+width: 380px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control{
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+#register1{
+  background-color:black;
+  border:1px solid;
+  margin-bottom: 10px;
+  color:white;
+}
+
+#register1:hover{
+  background-color:white;
+  color:black;
+  border:1px solid black;
+}
+
+#reset{
+	background-color:black;
+	border:1px solid;
+	color:white;
+}
+#reset:hover{
+  background-color:white;
+  color:black;
+  border:1px solid black;
+}
+.btn-3::after {
+  height: 0;
+  left: 50%;
+  top: 50%;
+  width: 0;
+}
+
+.btn-3:hover:after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: black;
+}
